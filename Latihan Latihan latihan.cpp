@@ -17,6 +17,7 @@ if(member=="Y"){
     cout<<" Nama          : "<<namaku;
     cout<<" \n\n Jumlah Barang yang Dibeli : ";cin>>jumlah;
     for(int i=1;i<=jumlah;i++){
+    cout<<" Nama barang ke-"<<i<<" : ";cin>>barang;
     cout<<" Harga barang ke-"<<i<<" : ";cin>>harga;
     total=total+harga;}
     cout<<" Jumlah harga      : ";cout<<total<<endl;
@@ -26,8 +27,9 @@ if(member=="Y"){
 else if(member=="T"){
     cout<<" ==Anda Bukan Member==\n";
     cout<<" Masukkan Nama : ";cin>>namaku;
-    cout<<" \n Jumlah Barang yang Dibeli : ";cin>>jumlah;}
+    cout<<" \n Jumlah Barang yang Dibeli : ";cin>>jumlah;
     for(int i=1;i<=jumlah;i++){
+    cout<<" Nama barang ke-"<<i<<" : ";cin>>barang;
     cout<<" Harga barang ke-"<<i<<" : ";cin>>harga;
     total=total+harga;}
-    cout<<" Jumlah harga      : ";cout<<total<<endl;}
+    cout<<" Jumlah harga      : ";cout<<total<<endl;}}
